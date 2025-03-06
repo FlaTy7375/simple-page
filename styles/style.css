@@ -69,6 +69,15 @@ body {
     display: block;
 }
 
+.navigation-link:hover {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .second-navigation-list {
     margin: 0;
     padding: 0;
@@ -141,6 +150,11 @@ body {
     border: 1px solid #FFFFFF;
     padding: 18px 49px 17px 49px;
     text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: black;
 }
 
 .main-inner {
