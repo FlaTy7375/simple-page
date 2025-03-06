@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap");
+    
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242424;
+    background-color: #fbf7f4;
+    min-height: 100%;
+}
+
+.header {
+    background-color: black;
+    color: #ffffff;
+    background-image: url(../img/header-bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+.header-container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 57px;
+}
+
+.navigation-logo {
+    width: 31px; 
+    margin-right: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.navigation-link {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 0;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    display: block;
+}
+
+.second-navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;  
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    display: block;
+}
+
+.title-container {
+    margin-top: 216px;
+    margin-bottom: 322px;
+}
+
+.header-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3px;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sub-header-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.button {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin-left: 3px;
+    border: 1px solid #FFFFFF;
+    padding: 18px 49px 17px 49px;
+    text-decoration: none;
+}
+
+.main-inner {
+    padding-top: 113px;
+    padding-bottom: 114px;
+    flex-grow: 1;
+}
+
+.main-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin-top: 0;
+    margin-bottom: 58px;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 564px 564px;
+    column-gap: 36px;
+}
+
+.about-title {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.first-title {
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.second-title {
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.about-text {
+    width: 564px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 29px;
+}
+
+.footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.footer-info {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.footer-info:first-child {
+    margin-right: 55px;
+}
